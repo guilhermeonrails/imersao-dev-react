@@ -1,0 +1,26 @@
+* {
+    padding: 2%;
+    background-color: #191919;
+    color: #9EB8D9;
+}
+
+.bandas__cartao {
+    border: 2px solid #5B8FB9;
+    display: inline-block;
+    width: 12rem;
+    height: 16rem;
+    text-align: center;
+    margin: 0.5rem;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px 0px #7C93C3;
+    transition: transform 3s;
+}
+
+.bandas__cartao:hover img {
+    transform: scale(1.06);
+}
+
+img {
+    width: 10rem;
+    height: 10rem;
+}
